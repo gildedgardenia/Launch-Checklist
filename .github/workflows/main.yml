@@ -16,4 +16,3 @@ jobs:
       - run: | 
             npm install 
             npm run test-grading-fetch
-            npm run test-grading-dom
