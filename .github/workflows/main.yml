@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Run Tests
-        run: |
-          npm install 
-          npm run test-grading-fetch
-          npm run test-grading-dom
+      - run: npm install 
+      - run: npm run build
+      - run: npm run test-grading-fetch
+      - run: npm run test-grading-dom
